@@ -30,7 +30,7 @@ class HomeFragment2 : Fragment() {
         override fun run() {
             val currentDateTime = dateFormat.format(Date())
             binding.dateTimeTextView.text = currentDateTime
-            handler.postDelayed(this, 1000) // update every second
+            handler.postDelayed(this, 1000)
         }
     }
 
@@ -38,7 +38,6 @@ class HomeFragment2 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         _binding = FragmentHome2Binding.inflate(inflater, container, false)
 
         return binding.root

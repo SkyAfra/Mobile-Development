@@ -18,7 +18,7 @@ class AboutActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        onBackPressed() // This will take the user to the previous activity
+        onBackPressed()
         return true
     }
     }

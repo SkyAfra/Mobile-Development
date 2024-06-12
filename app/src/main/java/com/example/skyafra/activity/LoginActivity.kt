@@ -56,7 +56,6 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun updateUI(user: FirebaseUser?) {
-        // Implement logic to update UI based on user status if needed
     }
 
 

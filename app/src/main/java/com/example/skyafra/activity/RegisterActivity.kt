@@ -80,7 +80,6 @@ class RegisterActivity : AppCompatActivity() {
 
 
     private fun updateUI(user: FirebaseUser?) {
-        // Implement your update UI logic here
     }
 
     companion object {

@@ -55,13 +55,12 @@ class HomeCameraActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        // Enable up button
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        onBackPressed() // This will take the user to the previous activity
+        onBackPressed()
         return true
     }
 

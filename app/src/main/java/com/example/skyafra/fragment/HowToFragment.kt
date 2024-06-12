@@ -18,7 +18,6 @@ class HowToFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout using view binding
         _binding = FragmentHowToBinding.inflate(inflater, container, false)
         return binding.root
 
