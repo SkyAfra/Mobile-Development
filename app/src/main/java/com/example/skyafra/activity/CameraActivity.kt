@@ -19,7 +19,7 @@ import androidx.core.content.ContextCompat
 import com.example.skyafra.createCustomTempFile
 import com.example.skyafra.databinding.ActivityCameraBinding
 
-class CameraActivity : AppCompatActivity() {
+class CameraActivity : AppCompatActivity() { /*
 
     private lateinit var binding: ActivityCameraBinding
     private var cameraSelector: CameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
@@ -43,6 +43,7 @@ class CameraActivity : AppCompatActivity() {
         hideSystemUI()
         startCamera()
     }
+
 
     private fun startCamera() {
         val cameraProviderFuture = ProcessCameraProvider.getInstance(this)
@@ -145,5 +146,5 @@ class CameraActivity : AppCompatActivity() {
         private const val TAG = "CameraActivity"
         const val EXTRA_CAMERAX_IMAGE = "CameraX Image"
         const val CAMERAX_RESULT = 200
-    }
+    } */
 }

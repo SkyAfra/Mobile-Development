@@ -7,15 +7,29 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.skyafra.databinding.ActivityStartedBinding
+import com.example.skyafra.fragment.HomeFragment2
+import com.google.firebase.Firebase
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.auth
 
 class StartedActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityStartedBinding
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityStartedBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        auth = Firebase.auth
+
+        val currentUser = auth.currentUser
+        if (currentUser != null) {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+            return
+        }
 
         binding.btnLogin.setOnClickListener{
             startActivity(Intent(this, LoginActivity::class.java))

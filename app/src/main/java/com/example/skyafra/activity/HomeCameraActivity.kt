@@ -12,9 +12,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
-import androidx.core.net.toUri
 import com.example.skyafra.R
-import com.example.skyafra.activity.CameraActivity.Companion.CAMERAX_RESULT
 import com.example.skyafra.databinding.ActivityHomeCameraBinding
 import com.example.skyafra.getImageUri
 
@@ -51,7 +49,7 @@ class HomeCameraActivity : AppCompatActivity() {
 
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.cameraButton.setOnClickListener { startCamera() }
-        binding.cameraXButton.setOnClickListener { startCameraX() }
+        //binding.cameraXButton.setOnClickListener { startCameraX() }
         binding.uploadButton.setOnClickListener { uploadImage() }
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
@@ -95,6 +93,7 @@ class HomeCameraActivity : AppCompatActivity() {
         }
     }
 
+    /*
     private fun startCameraX() {
         val intent = Intent(this, CameraActivity::class.java)
         launcherIntentCameraX.launch(intent)
@@ -107,7 +106,7 @@ class HomeCameraActivity : AppCompatActivity() {
             currentImageUri = it.data?.getStringExtra(CameraActivity.EXTRA_CAMERAX_IMAGE)?.toUri()
             showImage()
         }
-    }
+    } */
 
     private fun showImage() {
         currentImageUri?.let {
