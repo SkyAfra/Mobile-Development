@@ -1,1 +1,1 @@
-<center><b>Please move to the master</b></center>
+<center><b>Please move to the master branch</b></center>
