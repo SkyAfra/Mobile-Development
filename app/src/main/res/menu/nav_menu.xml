@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/organic"
+            android:icon="@drawable/baseline_question_mark_24"
+            android:title="@string/about_organic" />
+
+        <item
+            android:id="@+id/nonorganic"
+            android:icon="@drawable/baseline_question_mark_24"
+            android:title="@string/about_non_organic" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/baseline_question_mark_24"
+            android:title="@string/about" />
+
+    </group>
+
+</menu>

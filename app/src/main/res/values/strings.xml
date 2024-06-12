@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">SkyAfra</string>
+    <string name="nav_open" translatable="false">Open Navigation Drawer</string>
+    <string name="nav_close" translatable="false">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="started_title">Hello!</string>
+    <string name="started_sub_title"><p>Welcome to SkyAfra App, Nice to meet you!</p>
+        <p><br><b>Please Login or Register</b></br></p>
+    </string>
+    <string name="illustration_image" translatable="false">Illustration Image</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="login_title">Login To SkyAfra</string>
+    <string name="login_sub_title">
+        Login if you already have an account.
+    </string>
+    <string name="login_email">Your email</string>
+    <string name="login_password">Your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_havent_account">
+        Don\'t have an account? <b>Register</b>
+    </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title">
+        Register to get started with the app.
+    </string>
+    <string name="register_fullname">Your fullname</string>
+    <string name="register_email">Your email</string>
+    <string name="register_username">Your username</string>
+    <string name="register_confirm_password">Confirm your password</string>
+    <string name="register_have_account">
+        Already have an account? <b>Login</b>
+    </string>
+    <string name="btn_logout">Logout</string>
+    <string name="organic">Organic</string>
+    <string name="non_organic">Non Organic</string>
+    <string name="home">Home</string>
+    <string name="how_to">How To</string>
+    <string name="about">About</string>
+    <string name="profile">Profile</string>
+    <string name="about_organic">About Organic</string>
+    <string name="about_non_organic">About Non Organic</string>
+    <string name="setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="change">Change</string>
+    <string name="tip_language">Please change the language on your phone to change the language.</string>
+    <string name="tip_register">Please use portrait mode to register.</string>
+    <string name="camera">Camera</string>
+    <string name="camerax">CameraX</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="to_main_feature">To Main Feature</string>
+    <string name="date_and_time" translatable="false">Date and Time</string>
+    <string name="welcome">Welcome</string>
+    <string name="illustration_image_home" translatable="false">illustration image home</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="tips_scan">Click the Button to Start Scanning</string>
+    <string name="tips_waste">Want to know the types of waste?</string>
+    <string name="tips_about">Information About Us</string>
+    <string name="title1">Organic trash</string>
+    <string name="content_text">Organic waste is waste that comes from the remains of living creatures which is easily decomposed naturally without human intervention to decompose. Organic waste can be said to be environmentally friendly waste and can even be reprocessed into something useful if managed properly. However, if waste is not managed properly it will cause disease and unpleasant odors as a result of the rapid decomposition of organic waste.</string>
+    <string name="organic_type">Types of Organic Waste</string>
+    <string name="wet_organic">Wet Organic</string>
+    <string name="meaning1">Wet organic waste is organic waste that contains a lot of water. Examples of wet organic waste are vegetable waste, banana peels, rotten fruit, onion skins and the like. This is what I said, organic waste can cause an unpleasant odor because of the high water content which causes this type of waste to rot quickly.</string>
+    <string name="dry_organic">Dry Organic</string>
+    <string name="meaning2">Dry organic waste is organic waste that contains little water. Examples of organic waste include wood, tree branches, wood and dry leaves. Most organic waste is difficult to reprocess so it is more often burned to destroy it.</string>
+    <string name="rind">Rind</string>
+    <string name="examples_of">Examples of Organic Waste</string>
+    <string name="waste">Animal or Human Waste</string>
+    <string name="carcasses">Animal Carcasses</string>
+    <string name="leftovers">Food Leftovers</string>
+    <string name="fishbone">Fishbone</string>
+    <string name="organic_benefits">Benefits of Organic Waste</string>
+    <string name="benefits1">1. Organic Waste for Compost / Organic Fertilizer</string>
+    <string name="benefits2">2. Additional Animal Feed</string>
+    <string name="benefits3">3. Can be used as handicrafts</string>
+    <string name="benefits4">4. Can be used as biogas and electricity</string>
+    <string name="title2">Inorganic Waste</string>
+    <string name="content_text2">Inorganic waste is waste produced from non-biological materials, non-renewable natural resources, and the results of technological processes for managing mining and industrial materials. Inorganic waste buried in the ground can cause soil pollution because inorganic waste is classified as a substance that is difficult to decompose and the waste will be buried in the soil for a long time, this causes damage to the soil layer.</string>
+    <string name="anorganic_type">Types of Inorganic Waste</string>
+    <string name="inorganic_soft">Inorganic soft waste</string>
+    <string name="meaning3">Waste that is soft or flexible and easy to shape. For example, plastic, synthetic cork or styrofoam, plastic straws, and fast food wrappers. Apart from that, waste is in the form of liquids such as detergent water, washing soap, used cooking oil, and others.</string>
+    <string name="hard_inorganic">Inorganic hard waste</string>
+    <string name="meaning4">It is not easily destroyed. Usually, inorganic hard waste will be destroyed by certain methods, heating or burning. Examples of rubbish or inorganic hard waste are broken ceramics, glass, rusty nails and used cans.</string>
+    <string name="examples_of2">Examples of Inorganic Waste</string>
+    <string name="bottle">Plastic bottles</string>
+    <string name="plastic">Plastic/Crackle</string>
+    <string name="tire">Used tires</string>
+    <string name="electronics">Used Electronics</string>
+    <string name="glass">Glass Waste</string>
+    <string name="anorganic_benefits">Benefits of Inorganic Waste</string>
+    <string name="benefits5">The benefit of inorganic waste that we can use is by making crafts from this rubbish/waste. For example, plastic waste can be made into bags, dining tablecloths, knick-knacks.</string>
+    <string name="title3" translatable="false">SkyAfra</string>
+    <string name="kelompok">Member\'s name:</string>
+    <string name="Nama1" translatable="false">1. Ken Anargya Alkausar (C004D4KY0771) - Cloud Computing - Institut Teknologi Sepuluh Nopember</string>
+    <string name="Nama2" translatable="false">2. Revanantyo Dwigantara (M004D4KY2352) - Machine Learning - Institut Teknologi Sepuluh Nopember</string>
+    <string name="Nama3" translatable="false">3. Andreas Fernandez Wauran (M314D4KY2766) - Machine Learning - Universitas Singaperbangsa Karawang</string>
+    <string name="Nama4" translatable="false">4. Adrian Ismu Arifianto (C004D4KY0984) - Cloud Computing - Institut Teknologi Sepuluh Nopember</string>
+    <string name="Nama5" translatable="false">5. Saffanah Nur Fadilla (M270D4KX3151) - Machine Learning - Universitas Mulia</string>
+    <string name="Nama6" translatable="false">6. Yopira Eka Putra (A270D4KY4520) - Mobile Development - Universitas Mulia</string>
+    <string name="Nama7" translatable="false">7. Fardilla Bara Hidayah (A270D4KY4532) - Mobile Development - Universitas Mulia</string>
+    <string name="user_name">nama_user</string>
+    <string name="email">email</string>
+    <string name="about_skyarfa">SkyAfra - An App to Help People Sort Their WasteBiodegradable waste management has become an important concern in the context of sustainable waste management and environmental conservation recent advances in technology for detecting biodegradable waste in various environments. with identifying and separating biodegradable waste from other waste streams. It then explores emerging technological solutions to overcome these challenges, including computer vision-based systems, artificial intelligence (AI) algorithms, and machine learning (ML) techniques.</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SettingFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginVertical="80dp"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:text="@string/language"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stylebtn1"
+        android:layout_gravity="center|top"
+        android:layout_marginVertical="120dp"
+        android:layout_marginStart="0dp"
+        android:text="@string/change" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tip_language"
+        android:layout_marginVertical="165dp"
+        android:layout_marginStart="0dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+</FrameLayout>
