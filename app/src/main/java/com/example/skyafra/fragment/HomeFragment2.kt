@@ -25,7 +25,7 @@ class HomeFragment2 : Fragment() {
     private val binding get() = _binding!!
     private val handler = Handler(Looper.getMainLooper())
     private val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
-//ghghgh
+
     private val updateTimeTask = object : Runnable {
         override fun run() {
             val currentDateTime = dateFormat.format(Date())
