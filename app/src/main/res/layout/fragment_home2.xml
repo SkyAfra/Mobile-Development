@@ -75,7 +75,7 @@
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="380dp"
-        android:layout_marginStart="130dp"
+        android:layout_gravity="top|center"
         android:background="@drawable/stylebtn1"
         android:text="@string/open_camera"
         android:textAllCaps="false"/>
@@ -107,7 +107,7 @@
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="580dp"
-        android:layout_marginStart="130dp"
+        android:layout_gravity="top|center"
         android:background="@drawable/stylebtn1"
         android:text="@string/about"
         android:textAllCaps="false"/>

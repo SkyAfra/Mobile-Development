@@ -14,6 +14,7 @@ class HistoryAdapter(private val historyList: List<HistoryItem>) : RecyclerView.
         val resultTextView: TextView = itemView.findViewById(R.id.resultTextView)
         val explanationTextView: TextView = itemView.findViewById(R.id.explanationTextView)
         val suggestionTextView: TextView = itemView.findViewById(R.id.suggestionTextView)
+        val createAtTextView: TextView = itemView.findViewById(R.id.createAtTextView)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HistoryViewHolder {
@@ -26,6 +27,7 @@ class HistoryAdapter(private val historyList: List<HistoryItem>) : RecyclerView.
         holder.resultTextView.text = currentItem.result
         holder.explanationTextView.text = currentItem.explanation
         holder.suggestionTextView.text = currentItem.suggestion
+        holder.createAtTextView.text = currentItem.createAt
     }
 
     override fun getItemCount() = historyList.size

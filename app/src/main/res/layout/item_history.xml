@@ -35,6 +35,15 @@
         android:textSize="14sp"
         android:padding="5dp"/>
 
+        <TextView
+            android:id="@+id/createAtTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/createat_header"
+            android:textSize="14sp"
+            android:padding="5dp"/>
+
     </LinearLayout>
 
 

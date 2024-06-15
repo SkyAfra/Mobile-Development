@@ -20,15 +20,17 @@ class ResultActivity : AppCompatActivity() {
         val result = intent.getStringExtra("result")
         val explanation = intent.getStringExtra("explanation")
         val suggestion = intent.getStringExtra("suggestion")
+        val createAt = intent.getStringExtra("createAt")
 
-        if (result != null && explanation != null && suggestion != null) {
-            val newHistoryItem = HistoryItem(result, explanation, suggestion)
+        if (result != null && explanation != null && suggestion != null && createAt != null) {
+            val newHistoryItem = HistoryItem(result, explanation, suggestion, createAt)
             saveHistory(newHistoryItem)
         }
 
         binding.resultTextView.text = result
         binding.explanationTextView.text = explanation
         binding.suggestionTextView.text = suggestion
+        binding.createAtTextView.text = createAt
 
         binding.backButton.setOnClickListener {
             startActivity(Intent(this, HomeCameraActivity::class.java))

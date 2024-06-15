@@ -111,5 +111,6 @@
     <string name="suggestion_header">Suggestion</string>
     <string name="back">Return</string>
     <string name="history">History</string>
+    <string name="createat_header">Date</string>
 
 </resources>

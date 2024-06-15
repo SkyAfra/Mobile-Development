@@ -139,6 +139,7 @@ class HomeCameraActivity : AppCompatActivity() {
                                 putExtra("result", it.data.result)
                                 putExtra("explanation", it.data.explanation)
                                 putExtra("suggestion", it.data.suggestion)
+                                putExtra("createAt", it.data.createdAt)
                             }
                             startActivity(intent)
                             resetState()
