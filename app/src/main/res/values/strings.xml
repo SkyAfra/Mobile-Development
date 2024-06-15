@@ -39,8 +39,8 @@
     <string name="how_to">How To</string>
     <string name="about">About</string>
     <string name="profile">Profile</string>
-    <string name="about_organic">About Organic</string>
-    <string name="about_non_organic">About Non Organic</string>
+    <string name="about_organic">About Biodegradable</string>
+    <string name="about_non_organic">About Non Biodegradable</string>
     <string name="setting">Setting</string>
     <string name="language">Language</string>
     <string name="change">Change</string>
@@ -58,9 +58,8 @@
     <string name="tips_scan">Click the Button to Start Scanning</string>
     <string name="tips_waste">Want to know the types of waste?</string>
     <string name="tips_about">Information About Us</string>
-    <string name="title1">Organic trash</string>
-    <string name="content_text">Organic waste is waste that comes from the remains of living creatures which is easily decomposed naturally without human intervention to decompose. Organic waste can be said to be environmentally friendly waste and can even be reprocessed into something useful if managed properly. However, if waste is not managed properly it will cause disease and unpleasant odors as a result of the rapid decomposition of organic waste.</string>
-    <string name="organic_type">Types of Organic Waste</string>
+    <string name="title1">Biodegradable</string>
+    <string name="content_text">" Biodegradable is the ability of a material to decompose naturally by microorganisms such as bacteria or fungi within a certain period of time, usually several months or years. The biodegradation process produces a final product that is safe and does not pollute the environment. In an environmental context, biodegradable materials that break down naturally can help reduce the negative impact of waste on the environment and promote a more sustainable life cycle. Which materials can be considered biodegradable depends on many factors, including the type and number of microorganisms involved in the biodegradation process, the temperature and humidity of the environment, and the chemical composition of the material itself."</string>
     <string name="wet_organic">Wet Organic</string>
     <string name="meaning1">Wet organic waste is organic waste that contains a lot of water. Examples of wet organic waste are vegetable waste, banana peels, rotten fruit, onion skins and the like. This is what I said, organic waste can cause an unpleasant odor because of the high water content which causes this type of waste to rot quickly.</string>
     <string name="dry_organic">Dry Organic</string>
@@ -76,9 +75,9 @@
     <string name="benefits2">2. Additional Animal Feed</string>
     <string name="benefits3">3. Can be used as handicrafts</string>
     <string name="benefits4">4. Can be used as biogas and electricity</string>
-    <string name="title2">Inorganic Waste</string>
-    <string name="content_text2">Inorganic waste is waste produced from non-biological materials, non-renewable natural resources, and the results of technological processes for managing mining and industrial materials. Inorganic waste buried in the ground can cause soil pollution because inorganic waste is classified as a substance that is difficult to decompose and the waste will be buried in the soil for a long time, this causes damage to the soil layer.</string>
-    <string name="anorganic_type">Types of Inorganic Waste</string>
+    <string name="title2">Biodegradable</string>
+    <string name="content_text2"> Biodegradable is the ability of a material to decompose naturally by microorganisms such as bacteria or fungi within a certain period of time, usually several months or years. The biodegradation process produces a final product that is safe and does not pollute the environment. In an environmental context, biodegradable materials that break down naturally can help reduce the negative impact of waste on the environment and promote a more sustainable life cycle. Which materials can be considered biodegradable depends on many factors, including the type and number of microorganisms involved in the biodegradation process, the temperature and humidity of the environment, and the chemical composition of the material itself.</string>
+    <string name="anorganic_type">Types of Biodegradable Materials</string>
     <string name="inorganic_soft">Inorganic soft waste</string>
     <string name="meaning3">Waste that is soft or flexible and easy to shape. For example, plastic, synthetic cork or styrofoam, plastic straws, and fast food wrappers. Apart from that, waste is in the form of liquids such as detergent water, washing soap, used cooking oil, and others.</string>
     <string name="hard_inorganic">Inorganic hard waste</string>
@@ -100,8 +99,15 @@
     <string name="Nama5" translatable="false">5. Saffanah Nur Fadilla (M270D4KX3151) - Machine Learning - Universitas Mulia</string>
     <string name="Nama6" translatable="false">6. Yopira Eka Putra (A270D4KY4520) - Mobile Development - Universitas Mulia</string>
     <string name="Nama7" translatable="false">7. Fardilla Bara Hidayah (A270D4KY4532) - Mobile Development - Universitas Mulia</string>
-    <string name="user_name">nama_user</string>
-    <string name="email">email</string>
+    <string name="user_name" translatable="false">nama_user</string>
+    <string name="email" translatable="false">email</string>
     <string name="about_skyarfa">SkyAfra - An App to Help People Sort Their WasteBiodegradable waste management has become an important concern in the context of sustainable waste management and environmental conservation recent advances in technology for detecting biodegradable waste in various environments. with identifying and separating biodegradable waste from other waste streams. It then explores emerging technological solutions to overcome these challenges, including computer vision-based systems, artificial intelligence (AI) algorithms, and machine learning (ML) techniques.</string>
-    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="result_header">result_header</string>
+    <string name="explanation_header">explanation_header</string>
+    <string name="result" translatable="false">Result</string>
+    <string name="explanation" translatable="false">Explanation</string>
+    <string name="suggestion" translatable="false">Suggestion</string>
+    <string name="suggestion_header">suggestion_header</string>
+    <string name="back">Return</string>
 </resources>

@@ -26,8 +26,8 @@
     <string name="how_to">Tutorial</string>
     <string name="about">Tentang</string>
     <string name="profile">Profil</string>
-    <string name="about_organic">Tentang Organik</string>
-    <string name="about_non_organic">Tentang Non Organik</string>
+    <string name="about_organic">Bisa Terurai</string>
+    <string name="about_non_organic">Tidak Terurai</string>
     <string name="setting">Pengaturan</string>
     <string name="language">Bahasa</string>
     <string name="change">Ubah</string>
@@ -44,9 +44,9 @@
     <string name="tips_waste">Ingin tau jenis-jenis sampah?</string>
     <string name="tips_about">Informasi Tentang Kami</string>
     <string name="title1">Sampah Organik</string>
-    <string name="content_text">"Sampah organik adalah sampah yang berasal dari sisa mahkluk hidup yang mudah terurai secara alami tanpa proses campur tangan manusia untuk dapat terurai. Sampah organik bisa dikatakan sebagai sampah ramah lingkungan bahkan sampah bisa diolah kembali menjadi suatu yang bermanfaat bila dikelola dengan tepat. Tetapi sampah bila tidak dikelola dengan benar akan menimbulkan penyakit dan bau yang kurang sedap hasil dari pembusukan sampah organik yang cepat. "</string>
-    <string name="organic_type">Jenis-jenis Sampah Organik</string>
-    <string name="wet_organic">Organik Basah</string>
+    <string name="content_text">Biodegradable adalah kemampuan suatu bahan untuk terurai secara alami oleh mikroorganisme seperti bakteri atau jamur dalam jangka waktu tertentu, biasanya dalam beberapa bulan atau tahun. Proses biodegradasi tersebut menghasilkan produk akhir yang aman dan tidak mencemari lingkungan. Dalam konteks lingkungan, bahan biodegradable yang terurai secara alami dapat membantu mengurangi dampak negatif limbah terhadap lingkungan dan mempromosikan siklus hidup yang lebih berkelanjutan. Bahan yang dapat dianggap biodegradable tergantung pada banyak faktor, termasuk jenis dan jumlah mikroorganisme yang terlibat dalam proses biodegradasi, suhu dan kelembaban lingkungan, serta komposisi kimia bahan itu sendiri.</string>
+    <string name="organic_type">Jenis-Jenis Bahan Biodegradable</string>
+    <string name="wet_organic">Biodegradable Alami</string>
     <string name="meaning1">Sampah organik basah adalah sampah organik yang banyak mengadung air. Sampah organik basah contohnya adalah sisa sayur, kulit pisang, buah yang busuk, kulit bawang dan sejenisnya. Inilah yang saya katakan bahwa sampah organik dapat menimbulkan bau tidak sedap sebab kandungan air tinggi yang menyebabkan sampah jenis ini cepat membusuk.</string>
     <string name="dry_organic">Organik Kering</string>
     <string name="meaning2">Sampah organik kering adalah sampah organik yang sedikit mengandung air. Contoh sampah organik misalnya kayu, ranting pohon, kayu dan daun – daun kering. Kebanyakan sampah organik sulit diolah kembali jadi lebih sering dibakar untuk memusnahkannya.</string>
@@ -62,7 +62,7 @@
     <string name="benefits3">3. Dapat dijadikan kerajinan tangan</string>
     <string name="benefits4">4. Dapat dijadikan Biogas dan listrik</string>
     <string name="title2">Sampah Anorganik</string>
-    <string name="content_text2">Sampah Anorganik adalah limbah yang diproduksi dari bahan-bahan nonhayati, sumber daya alam tidak terbarui, dan hasil proses teknologi pengelolaan bahan tambang dan industri. Sampah anorganik yang tertimbun di tanah dapat menyebabkan pencemaran tanah karena sampah anorganik tergolong zat yang sulit terurai dan sampah itu akan tertimbun dalam tanah dalam waktu lama, ini menyebabkan rusaknya lapisan tanah.</string>
+    <string name="content_text2">Biodegradable adalah kemampuan suatu bahan untuk terurai secara alami oleh mikroorganisme seperti bakteri atau jamur dalam jangka waktu tertentu, biasanya dalam beberapa bulan atau tahun. Proses biodegradasi tersebut menghasilkan produk akhir yang aman dan tidak mencemari lingkungan. Dalam konteks lingkungan, bahan biodegradable yang terurai secara alami dapat membantu mengurangi dampak negatif limbah terhadap lingkungan dan mempromosikan siklus hidup yang lebih berkelanjutan. Bahan yang dapat dianggap biodegradable tergantung pada banyak faktor, termasuk jenis dan jumlah mikroorganisme yang terlibat dalam proses biodegradasi, suhu dan kelembaban lingkungan, serta komposisi kimia bahan itu sendiri.</string>
     <string name="anorganic_type">Jenis-jenis Sampah Anorganik</string>
     <string name="inorganic_soft">Limbah lunak Anorganik</string>
     <string name="meaning3">Limbah yang bersifat lunak atau lentur dan mudah dibentuk. Contohnya, plastik, gabus sintetis atau styrofoam, sedotan plastik, serta bungkus makanan cepat saji. Selain itu, limbah dalam bentuk cairan seperti air detergen, sabun cuci, minyak jelantah, dan lainnya.</string>
@@ -78,4 +78,8 @@
     <string name="benefits5">Manfaat sampah anorganik yang bisa kita manfaatkan adalah dengan membuat kerajinan dari sampah / limbah tersebut. Misalnya sampah plastik dapat dibuat tas, taplak meja makan, pernak pernik.</string>
     <string name="kelompok">Nama Anggota:</string>
     <string name="about_skyarfa">SkyAfra - Aplikasi untuk Membantu Masyarakat Memilah Sampah Pengelolaan sampah biodegradable telah menjadi perhatian penting dalam konteks pengelolaan sampah berkelanjutan dan pelestarian lingkungan. Kemajuan teknologi terkini untuk mendeteksi sampah biodegradable di berbagai lingkungan. dengan mengidentifikasi dan memisahkan limbah biodegradable dari aliran limbah lainnya. Kemudian mengeksplorasi solusi teknologi yang muncul untuk mengatasi tantangan-tantangan ini, termasuk sistem berbasis visi komputer, algoritma kecerdasan buatan (AI), dan teknik pembelajaran mesin (ML).</string>
+    <string name="result_header">Hasil Scan</string>
+    <string name="explanation_header">Keterangan</string>
+    <string name="suggestion_header">Saran</string>
+    <string name="back">Kembali</string>
 </resources>
