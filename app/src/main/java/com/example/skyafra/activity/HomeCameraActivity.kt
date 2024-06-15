@@ -59,10 +59,13 @@ class HomeCameraActivity : AppCompatActivity() {
 
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.cameraButton.setOnClickListener { startCamera() }
-        //binding.cameraXButton.setOnClickListener { startCameraX() }
         binding.uploadButton.setOnClickListener {
             uploadImage()
             showLoading(true)
+        }
+
+        binding.historyButton.setOnClickListener {
+            startActivity(Intent(this, HistoryActivity::class.java))
         }
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
@@ -104,21 +107,6 @@ class HomeCameraActivity : AppCompatActivity() {
             showImage()
         }
     }
-
-    /*
-    private fun startCameraX() {
-        val intent = Intent(this, CameraActivity::class.java)
-        launcherIntentCameraX.launch(intent)
-    }
-
-    private val launcherIntentCameraX = registerForActivityResult(
-        ActivityResultContracts.StartActivityForResult()
-    ) {
-        if (it.resultCode == CAMERAX_RESULT) {
-            currentImageUri = it.data?.getStringExtra(CameraActivity.EXTRA_CAMERAX_IMAGE)?.toUri()
-            showImage()
-        }
-    } */
 
     private fun showImage() {
         currentImageUri?.let {

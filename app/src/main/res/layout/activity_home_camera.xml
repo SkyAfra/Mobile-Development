@@ -64,12 +64,12 @@
         android:layout_marginBottom="8dp"
         android:text="@string/camera"
         app:layout_constraintBottom_toTopOf="@+id/uploadButton"
-        app:layout_constraintEnd_toStartOf="@+id/cameraXButton"
+        app:layout_constraintEnd_toStartOf="@+id/historyButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/galleryButton" />
 
     <Button
-        android:id="@+id/cameraXButton"
+        android:id="@+id/historyButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"

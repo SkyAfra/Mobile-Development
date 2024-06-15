@@ -25,6 +25,9 @@
         android:theme="@style/Theme.SkyAfra"
         tools:targetApi="31">
         <activity
+            android:name=".activity.HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.ResultActivity"
             android:exported="false" />
         <!--
