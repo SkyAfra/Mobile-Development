@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("kotlin-parcelize")
     id("com.google.gms.google-services")
+    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
@@ -45,6 +46,8 @@ dependencies {
     implementation("com.google.firebase:firebase-auth:23.0.0")
     implementation("com.google.android.gms:play-services-auth:21.2.0")
     implementation("com.google.firebase:firebase-firestore:25.0.0")
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation("androidx.activity:activity:1.9.0")
     val cameraxVersion = "1.3.3"
 
     implementation("androidx.core:core-ktx:1.13.1")

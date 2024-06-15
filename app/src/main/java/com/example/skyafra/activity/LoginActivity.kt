@@ -3,6 +3,7 @@ package com.example.skyafra.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import com.example.skyafra.databinding.ActivityLoginBinding
 import com.example.skyafra.fragment.HomeFragment2
@@ -26,11 +27,12 @@ class LoginActivity : AppCompatActivity() {
         binding.btnLogin.setOnClickListener {
             val email = binding.etEmail.text.toString().trim()
             val password = binding.etPassword.text.toString().trim()
-
+            showLoading(true)
             if (email.isNotEmpty() && password.isNotEmpty()) {
                 signIn(email, password)
             } else {
                 Toast.makeText(this, "Email and password cannot be empty", Toast.LENGTH_SHORT).show()
+                showLoading(false)
             }
         }
 
@@ -38,6 +40,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
+
 
     private fun signIn(email: String, password: String) {
         auth.signInWithEmailAndPassword(email, password)
@@ -52,11 +55,15 @@ class LoginActivity : AppCompatActivity() {
                     Toast.makeText(this, "Authentication failed: Wrong Email or Password", Toast.LENGTH_SHORT).show()
                     updateUI(null)
                 }
+                showLoading(false)
             }
     }
 
     private fun updateUI(user: FirebaseUser?) {
     }
 
+    private fun showLoading(isLoading: Boolean) {
+        binding.progressBar!!.visibility = if (isLoading) View.VISIBLE else View.GONE
+    }
 
 }
