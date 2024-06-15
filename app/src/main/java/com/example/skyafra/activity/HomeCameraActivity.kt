@@ -59,13 +59,10 @@ class HomeCameraActivity : AppCompatActivity() {
 
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.cameraButton.setOnClickListener { startCamera() }
+        //binding.cameraXButton.setOnClickListener { startCameraX() }
         binding.uploadButton.setOnClickListener {
             uploadImage()
             showLoading(true)
-        }
-
-        binding.historyButton.setOnClickListener {
-            startActivity(Intent(this, HistoryActivity::class.java))
         }
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)

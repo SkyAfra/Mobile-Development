@@ -75,7 +75,6 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:textSize="15sp"
-            android:text="@string/organic_type"
             android:textStyle="bold"/>
         <TableLayout
             android:layout_width="match_parent"
