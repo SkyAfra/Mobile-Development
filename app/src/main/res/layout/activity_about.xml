@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/jyahnar" />
+            android:src="" />
 
         <TextView
             android:id="@+id/textView2"

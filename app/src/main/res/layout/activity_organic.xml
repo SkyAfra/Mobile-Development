@@ -147,7 +147,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:src="@drawable/kulit_buah" />
+                android:src="" />
 
             <TextView
             android:layout_width="match_parent"
@@ -172,7 +172,7 @@
                 android:layout_marginEnd="15dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:src="@drawable/kotoran_hewan" />
+                android:src="" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -197,7 +197,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:src="@drawable/bangkai_hewan" />
+                android:src="" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -222,7 +222,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:src="@drawable/sisa_makanan" />
+                android:src="" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -247,7 +247,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginEnd="16dp"
-                android:src="@drawable/tulang_ikan" />
+                android:src="" />
 
             <TextView
                 android:layout_width="match_parent"
