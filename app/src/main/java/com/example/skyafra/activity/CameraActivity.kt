@@ -16,7 +16,6 @@ import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import com.example.skyafra.createCustomTempFile
 import com.example.skyafra.databinding.ActivityCameraBinding
 
 class CameraActivity : AppCompatActivity() { /*
