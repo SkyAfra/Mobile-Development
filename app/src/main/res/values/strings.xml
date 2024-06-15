@@ -103,12 +103,12 @@
     <string name="email" translatable="false">email</string>
     <string name="about_skyarfa">SkyAfra - An App to Help People Sort Their WasteBiodegradable waste management has become an important concern in the context of sustainable waste management and environmental conservation recent advances in technology for detecting biodegradable waste in various environments. with identifying and separating biodegradable waste from other waste streams. It then explores emerging technological solutions to overcome these challenges, including computer vision-based systems, artificial intelligence (AI) algorithms, and machine learning (ML) techniques.</string>
     <string name="title_activity_maps" translatable="false">MapsActivity</string>
-    <string name="result_header">result_header</string>
-    <string name="explanation_header">explanation_header</string>
+    <string name="result_header">Result</string>
+    <string name="explanation_header">Explanation</string>
     <string name="result" translatable="false">Result</string>
     <string name="explanation" translatable="false">Explanation</string>
     <string name="suggestion" translatable="false">Suggestion</string>
-    <string name="suggestion_header">suggestion_header</string>
+    <string name="suggestion_header">Suggestion</string>
     <string name="back">Return</string>
-    <string name="hint_item">hint item</string>
+
 </resources>
