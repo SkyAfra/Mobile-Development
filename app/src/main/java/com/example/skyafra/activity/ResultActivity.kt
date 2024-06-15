@@ -1,5 +1,6 @@
 package com.example.skyafra.activity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.skyafra.databinding.ActivityResultBinding
@@ -19,6 +20,10 @@ class ResultActivity : AppCompatActivity() {
         binding.resultTextView.text = result
         binding.explanationTextView.text = explanation
         binding.suggestionTextView.text = suggestion
+
+        binding.backButton.setOnClickListener {
+            startActivity(Intent(this, HomeCameraActivity::class.java))
+        }
 
     }
 
