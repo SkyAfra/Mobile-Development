@@ -59,7 +59,9 @@ class HomeCameraActivity : AppCompatActivity() {
 
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.cameraButton.setOnClickListener { startCamera() }
-        //binding.cameraXButton.setOnClickListener { startCameraX() }
+        binding.historyButton.setOnClickListener {
+            startActivity(Intent(this, HistoryActivity::class.java))
+        }
         binding.uploadButton.setOnClickListener {
             uploadImage()
             showLoading(true)
@@ -70,6 +72,7 @@ class HomeCameraActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -138,6 +141,7 @@ class HomeCameraActivity : AppCompatActivity() {
                                 putExtra("suggestion", it.data.suggestion)
                             }
                             startActivity(intent)
+                            resetState()
                             showLoading(false)
                         }
                     } else {
@@ -153,6 +157,17 @@ class HomeCameraActivity : AppCompatActivity() {
         } ?: Toast.makeText(this, "No image selected", Toast.LENGTH_SHORT).show()
     }
 
+    override fun onBackPressed() {
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+        super.onBackPressed()
+    }
+
+    private fun resetState() {
+        currentImageUri = null
+        binding.previewImageView.setImageResource(0)
+    }
+
     companion object {
         private const val REQUIRED_PERMISSION = Manifest.permission.CAMERA
     }
@@ -160,6 +175,5 @@ class HomeCameraActivity : AppCompatActivity() {
     private fun showLoading(isLoading: Boolean) {
         binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
     }
-
 
 }

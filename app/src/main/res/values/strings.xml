@@ -110,5 +110,6 @@
     <string name="suggestion" translatable="false">Suggestion</string>
     <string name="suggestion_header">Suggestion</string>
     <string name="back">Return</string>
+    <string name="history">History</string>
 
 </resources>

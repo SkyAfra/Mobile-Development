@@ -28,6 +28,9 @@
             android:name=".activity.HistoryActivity"
             android:exported="false" />
         <activity
+            android:name=".activity.HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.ResultActivity"
             android:exported="false" />
         <!--
