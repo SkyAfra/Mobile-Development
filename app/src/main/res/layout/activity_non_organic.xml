@@ -16,7 +16,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@color/green"
@@ -46,7 +46,7 @@
             android:layout_height="274dp"
             android:layout_gravity="center"
             android:adjustViewBounds="true"
-            android:src="@drawable/biodegradable" />
+            android:src="@drawable/nonbiodegradable" />
 
         <TextView
             android:layout_width="match_parent"
@@ -55,7 +55,7 @@
             android:textColor="@color/green"
             android:gravity="center"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:fontFamily="@font/montserratbold"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -75,8 +75,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:textSize="15sp"
-            android:text="@string/anorganic_type"
-            android:textStyle="bold"/>
+            android:text="@string/nonbio_type"
+            android:fontFamily="@font/montserratbold"/>
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -94,13 +94,14 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:text="@string/inorganic_soft" />
+                    android:text="@string/soft_nonbio"
+                    android:fontFamily="@font/montserratbold"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text="@string/meaning3" />
+                    android:text="@string/soft_text" />
             </TableRow>
 
             <TableRow
@@ -114,13 +115,14 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:text="@string/hard_inorganic" />
+                    android:text="@string/hard_nonbio"
+                    android:fontFamily="@font/montserratbold"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text="@string/meaning4" />
+                    android:text="@string/hard_text" />
             </TableRow>
         </TableLayout>
         <TextView
@@ -131,9 +133,9 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:textSize="17sp"
-            android:text="@string/examples_of2"
+            android:text="@string/examples_nonbio"
             android:lineSpacingMultiplier="2"
-            android:textStyle="bold"/>
+            android:fontFamily="@font/montserratbold"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -147,7 +149,8 @@
                 android:layout_height="73dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginRight="10dp"
+                android:src="@drawable/botolplastik"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -155,8 +158,8 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/profile_image"
                 android:textSize="15sp"
-                android:textStyle="bold"
-                android:text="@string/bottle" />
+                android:fontFamily="@font/montserratbold"
+                android:text="@string/plastic" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -171,7 +174,8 @@
                 android:layout_height="73dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/banbekas"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -179,8 +183,8 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/profile_image2"
                 android:textSize="15sp"
-                android:textStyle="bold"
-                android:text="@string/plastic" />
+                android:fontFamily="@font/montserratbold"
+                android:text="@string/tires" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -195,7 +199,8 @@
                 android:layout_height="73dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/logam"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -203,8 +208,8 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/profile_image3"
                 android:textSize="15sp"
-                android:textStyle="bold"
-                android:text="@string/tire" />
+                android:fontFamily="@font/montserratbold"
+                android:text="@string/metal" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -219,7 +224,8 @@
                 android:layout_height="73dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"
+                android:src="@drawable/sampahkaca"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -227,8 +233,8 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/profile_image4"
                 android:textSize="15sp"
-                android:textStyle="bold"
-                android:text="@string/electronics" />
+                android:fontFamily="@font/montserratbold"
+                android:text="@string/glass" />
 
         </RelativeLayout>
         <RelativeLayout
@@ -243,7 +249,8 @@
                 android:layout_height="73dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/electronicwaste"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -251,8 +258,8 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@+id/profile_image5"
                 android:textSize="15sp"
-                android:textStyle="bold"
-                android:text="@string/glass"/>
+                android:fontFamily="@font/montserratbold"
+                android:text="@string/e_waste"/>
 
         </RelativeLayout>
         <TextView
@@ -261,16 +268,83 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:text="@string/benefits_nonbio"
+            android:fontFamily="@font/montserratbold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="8dp"
             android:textSize="15sp"
-            android:text="@string/anorganic_benefits"
-            android:textStyle="bold"/>
+            android:text="@string/positif"
+            android:fontFamily="@font/montserratbold"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text="@string/benefits5"
+            android:text="@string/benefit9"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/benefit10"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/benefit11"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/benefit12"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="15sp"
+            android:text="@string/negatif"
+            android:fontFamily="@font/montserratbold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/benefit13"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/benefit14"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/benefit15"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/benefit16"
             android:textSize="14sp"/>
     </LinearLayout>
 
