@@ -16,10 +16,12 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
             android:adjustViewBounds="true"
-            android:scaleType="fitXY" />
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/logoskyafra2" />
 
         <TextView
             android:id="@+id/textView2"

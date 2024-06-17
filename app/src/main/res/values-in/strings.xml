@@ -109,4 +109,5 @@
     <string name="tutor4">1. Untuk melihat riwayat klik tombol riwayat</string>
     <string name="tutor5">2. Paling atas adalah hasil scanning terbaru</string>
     <string name="date_and_time_header">Tanggal dan Waktu</string>
+    <string name="history">Riwayat</string>
 </resources>
