@@ -20,8 +20,9 @@
             android:layout_height="match_parent"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
+            android:layout_marginVertical="20dp"
             android:layout_gravity="center"
-            android:src="@drawable/logoskyafra2" />
+            android:src="@drawable/logoapkskyafra" />
 
         <TextView
             android:id="@+id/textView2"
