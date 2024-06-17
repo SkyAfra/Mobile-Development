@@ -94,7 +94,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/createat_header"
+            android:text="@string/date_and_time_header"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -107,7 +107,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:text="@string/createat_header"
+            android:text="@string/date_and_time"
             android:textSize="16sp" />
     </RelativeLayout>
 

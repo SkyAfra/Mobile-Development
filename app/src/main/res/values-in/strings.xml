@@ -50,8 +50,6 @@
     <string name="positif">Positif</string>
     <string name="plastic">Botol Plastik</string>
     <string name="tutorial">Cara menggunakan aplikasi SkyAfra</string>
-    <string name="history">Riwayat</string>
-    <string name="createat_header">Tanggal</string>
     <string name="bio_type">Jenis-Jenis Bahan Biodegradable</string>
     <string name="natural_Bio">Biodegradable Alami</string>
     <string name="title2">Non Biodegradable</string>
@@ -110,4 +108,5 @@
     <string name="tutorial2">Cara melihat riwayat aplikasi SkyAfra</string>
     <string name="tutor4">1. Untuk melihat riwayat klik tombol riwayat</string>
     <string name="tutor5">2. Paling atas adalah hasil scanning terbaru</string>
+    <string name="date_and_time_header">Tanggal dan Waktu</string>
 </resources>

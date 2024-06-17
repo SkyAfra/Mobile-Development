@@ -137,4 +137,6 @@
     <string name="tutorial2">How to view SkyAfra app history</string>
     <string name="tutor4">1. To view history click the history button</string>
     <string name="tutor5">2. Topmost is the latest scanning result</string>
+    <string name="date_and_time_header">Date and Time</string>
+    <string name="history">History</string>
 </resources>
