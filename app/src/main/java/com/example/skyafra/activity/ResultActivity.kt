@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.skyafra.databinding.ActivityResultBinding
+import com.example.skyafra.fragment.HomeFragment2
 import com.example.skyafra.history.HistoryItem
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -33,7 +34,7 @@ class ResultActivity : AppCompatActivity() {
         binding.createAtTextView.text = createAt
 
         binding.backButton.setOnClickListener {
-            startActivity(Intent(this, HomeCameraActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
             finish()
         }
 
