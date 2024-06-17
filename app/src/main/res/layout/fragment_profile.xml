@@ -35,6 +35,7 @@
         android:id="@+id/btn_logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:background="@drawable/stylebtn1"
         android:layout_marginTop="80dp"
         android:layout_gravity="bottom|center"

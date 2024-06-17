@@ -54,7 +54,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="480dp"
         android:gravity="center"
         android:text="@string/tips_waste"
         android:textColor="@color/black"
@@ -63,7 +63,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="620dp"
         android:gravity="center"
         android:text="@string/tips_about"
         android:textColor="@color/black"
@@ -74,39 +74,82 @@
         android:id="@+id/to_camera"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
         android:layout_gravity="top|center"
+        android:layout_marginTop="420dp"
         android:background="@drawable/stylebtn1"
         android:text="@string/open_camera"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="54dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="365dp"
+        android:contentDescription="@string/camera_icon"
+        android:src="@drawable/cameraicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/to_nonorganic"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginTop="480dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="560dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/stylebtn1"
         android:text="@string/about_non_organic"
         android:textAllCaps="false"/>
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="63dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="505dp"
+        android:contentDescription="@string/bio_icon"
+        android:src="@drawable/bioicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/to_organic"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:layout_marginTop="480dp"
-        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="25dp"
         android:background="@drawable/stylebtn1"
         android:text="@string/about_organic"
         android:textAllCaps="false"/>
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="54dp"
+        android:layout_gravity="right"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="505dp"
+        android:contentDescription="@string/nonbio_ico"
+        android:src="@drawable/nonbioicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/to_about"
         android:layout_width="153dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="580dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="660dp"
         android:layout_gravity="top|center"
         android:background="@drawable/stylebtn1"
         android:text="@string/about"

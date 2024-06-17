@@ -139,5 +139,8 @@
     <string name="tutor5">2. Topmost is the latest scanning result</string>
     <string name="date_and_time_header">Date and Time</string>
     <string name="history">History</string>
+    <string name="camera_icon" translatable="false">Camera Icon</string>
+    <string name="bio_icon" translatable="false">Bio Icon</string>
+    <string name="nonbio_ico" translatable="false">NonBio Ico</string>
 
 </resources>
