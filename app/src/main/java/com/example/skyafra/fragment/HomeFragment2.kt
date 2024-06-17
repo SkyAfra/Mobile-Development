@@ -51,12 +51,27 @@ class HomeFragment2 : Fragment() {
             startActivity(intent)
         }
 
+        binding.iconCamera.setOnClickListener{
+            val intent = Intent(requireContext(), HomeCameraActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.toOrganic.setOnClickListener {
             val intent = Intent(requireContext(), OrganicActivity::class.java)
             startActivity(intent)
         }
 
+        binding.bioIcon.setOnClickListener{
+            val intent = Intent(requireContext(), OrganicActivity::class.java)
+            startActivity(intent)
+        }
+
         binding.toNonorganic.setOnClickListener {
+            val intent = Intent(requireContext(), NonOrganicActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.nonbioIcon.setOnClickListener {
             val intent = Intent(requireContext(), NonOrganicActivity::class.java)
             startActivity(intent)
         }
