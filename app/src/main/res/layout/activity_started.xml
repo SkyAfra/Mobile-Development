@@ -50,23 +50,24 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.217" />
 
     <TextView
         android:id="@+id/tv_app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:alpha="0"
+        android:fontFamily="@font/anekmalayalamextrabold"
         android:gravity="center"
         android:text="@string/app_name"
         android:textColor="@color/white"
-        android:textSize="32sp"
-        android:textStyle="bold|italic"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/img_illustration_started"
         app:layout_constraintTop_toBottomOf="@+id/tv_started_sub_title"
-        app:layout_constraintVertical_bias="0.852"
-        tools:layout_editor_absoluteX="16dp"
-        android:alpha="0"
-        tools:alpha="100"/>
+        app:layout_constraintVertical_bias="0.875"
+        tools:alpha="100"
+        tools:layout_editor_absoluteX="20dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login"
