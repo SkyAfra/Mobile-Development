@@ -76,11 +76,6 @@ class HomeFragment2 : Fragment() {
             startActivity(intent)
         }
 
-        binding.toAbout.setOnClickListener {
-            val intent = Intent(requireContext(), AboutActivity::class.java)
-            startActivity(intent)
-        }
-
         handler.post(updateTimeTask)
 
     }

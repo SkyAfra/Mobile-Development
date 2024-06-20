@@ -55,13 +55,14 @@ class StartedActivity : AppCompatActivity() {
         val subtitle = ObjectAnimator.ofFloat(binding.tvStartedSubTitle, View.ALPHA, 1f).setDuration(1000)
         val login = ObjectAnimator.ofFloat(binding.btnLogin, View.ALPHA, 1f).setDuration(1000)
         val register = ObjectAnimator.ofFloat(binding.btnRegister, View.ALPHA, 1f).setDuration(1000)
+        val appname = ObjectAnimator.ofFloat(binding.tvAppName, View.ALPHA, 1f).setDuration(1000)
 
         val together = AnimatorSet().apply {
             playTogether(login, register)
         }
 
         AnimatorSet().apply {
-            playSequentially(title, subtitle, together)
+            playSequentially(title, subtitle, appname, together)
             start()
 
         }

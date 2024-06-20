@@ -87,6 +87,27 @@
             android:layout_marginBottom="8dp"
             android:text="@string/tutor5"
             android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:gravity="center|bottom"
+            android:text="@string/tips_about"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/to_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/stylebtn1"
+            android:text="@string/about"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
     </LinearLayout>
 
 </ScrollView>

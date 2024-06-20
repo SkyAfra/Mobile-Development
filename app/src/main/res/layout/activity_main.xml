@@ -52,6 +52,7 @@
                    android:id="@+id/bottom_navigation"
                    app:labelVisibilityMode="labeled"
                    app:menu="@menu/bottom_menu"
+                   app:itemTextColor="@color/grey_light"
                    android:background="@android:color/transparent">
 
 

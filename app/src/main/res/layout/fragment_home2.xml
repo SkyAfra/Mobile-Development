@@ -60,16 +60,6 @@
         android:textColor="@color/black"
         android:textSize="16sp" />
 
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="645dp"
-        android:gravity="center"
-        android:text="@string/tips_about"
-        android:textColor="@color/black"
-        android:textSize="16sp" />
-
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/to_camera"
         android:layout_width="115dp"
@@ -150,16 +140,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/to_about"
-        android:layout_width="115dp"
-        android:layout_height="35dp"
-        android:textColor="@color/white"
-        android:layout_marginTop="685dp"
-        android:layout_gravity="top|center"
-        android:background="@drawable/stylebtn1"
-        android:text="@string/about"
-        android:textAllCaps="false"
-        android:textSize="12sp"/>
+
 
 </FrameLayout>

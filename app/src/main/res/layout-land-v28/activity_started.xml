@@ -46,7 +46,7 @@
         android:layout_height="202dp"
         android:layout_marginStart="500dp"
         android:contentDescription="@string/illustration_image"
-        android:src="@drawable/illustration_started"
+        android:src="@drawable/logoapkskyafra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.776"
